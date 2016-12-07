@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <com.example.android.mytestapplication.customvView.CustomNavigatorBar
+        android:id="@+id/customView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:leftImage="@drawable/leftarrow"
+        app:rightImage="@drawable/rightarrow"
+        app:leftImageVisiable="true"
+        app:rightImageVisible="true"
+        app:leftText="左边"
+        app:rightText="右边"
+        app:midText="标题"
+        app:midTextFontColor="#ffffff"
+        app:leftTextColor="#ffffff"
+        app:rightTextColor="@color/colorAccent"
+        app:titleBarBackground="@color/colorPrimary"
+        app:midTextFontSize="18px"
+        app:leftTextVisibale="true"
+        app:rightTextVisible="true"
+        app:leftTextFontSize="16px"
+        app:rightTextFontSize="16px"
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <com.example.android.mytestapplication.customvView.CustomNavigatorBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:leftImage="@drawable/leftarrow"
+        app:rightImage="@drawable/rightarrow"
+        app:leftImageVisiable="true"
+        app:rightImageVisible="false"
+        app:leftText="左边"
+        app:rightText="右边"
+        app:midText="标题"
+        app:midTextFontColor="#ffffff"
+        app:leftTextColor="#ffffff"
+        app:rightTextColor="@color/colorAccent"
+        app:titleBarBackground="#ffcccc"
+        app:midTextFontSize="18px"
+        app:leftTextVisibale="false"
+        app:rightTextVisible="true"
+        app:leftTextFontSize="16px"
+        app:rightTextFontSize="16px"
+        />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <com.example.android.mytestapplication.customvView.CustomNavigatorBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:leftImage="@drawable/leftarrow"
+        app:rightImage="@drawable/rightarrow"
+        app:leftImageVisiable="true"
+        app:rightImageVisible="false"
+        app:leftText="左边"
+        app:rightText="右边"
+        app:midText="标题"
+        app:midTextFontColor="#ffffff"
+        app:leftTextColor="#ffffff"
+        app:rightTextColor="@color/colorAccent"
+        app:titleBarBackground="#e58c7c"
+        app:midTextFontSize="18px"
+        app:leftTextVisibale="false"
+        app:rightTextVisible="false"
+        app:leftTextFontSize="16px"
+        app:rightTextFontSize="16px"
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <com.example.android.mytestapplication.customvView.CustomNavigatorBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:leftImage="@drawable/leftarrow"
+        app:rightImage="@drawable/rightarrow"
+        app:leftImageVisiable="false"
+        app:rightImageVisible="true"
+        app:leftText="左边"
+        app:rightText="右边"
+        app:midText="标题"
+        app:midTextFontColor="#ffffff"
+        app:leftTextColor="#ffffff"
+        app:rightTextColor="@color/colorAccent"
+        app:titleBarBackground="#7ec3b6"
+        app:midTextFontSize="18px"
+        app:leftTextVisibale="true"
+        app:rightTextVisible="false"
+        app:leftTextFontSize="16px"
+        app:rightTextFontSize="16px"
+        />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <com.example.android.mytestapplication.customvView.CustomNavigatorBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:leftImage="@drawable/message_wzcx"
+        app:rightImage="@drawable/rightarrow"
+        app:leftImageVisiable="true"
+        app:rightImageVisible="true"
+        app:leftText="我的资料"
+        app:rightText="右边"
+        app:midText="标题"
+        app:midTextFontColor="#ffffff"
+        app:leftTextColor="#ffffff"
+        app:rightTextColor="@color/colorAccent"
+        app:titleBarBackground="#0494ff"
+        app:midTextFontSize="18px"
+        app:leftTextVisibale="true"
+        app:rightTextVisible="false"
+        app:leftTextFontSize="16px"
+        app:rightTextFontSize="16px"
+        app:midTextVisiable="false"
+        />
+
+
+</LinearLayout>
